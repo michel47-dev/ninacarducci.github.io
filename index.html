@@ -7,20 +7,21 @@
 	<title>Nina Carducci - Photographe</title>
 	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux.">
 	<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
-	<meta property="og:description"content="Photographe professionnelle spécialisée dans les portraits, mariages et événements.">
-		
+	<meta property="og:description"
+		content="Photographe professionnelle spécialisée dans les portraits, mariages et événements.">
+
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="./assets/images/nina.webp">
-
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/style.css">
 
-	<script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
+
+	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/maugallery.js"></script>
@@ -30,6 +31,10 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Nina Carducci",
+  "image": "./assets/images/nina.webp",
+   "priceRange": "€€",
+
+
 	"address": {
     "@type": "PostalAddress",
     "streetAddress": "68 avenue Alsace-Lorraine",
@@ -38,7 +43,7 @@
     "addressCountry": "FR"
   },
   "telephone": "0556677889",
-  "openingHours": "Mo-Fr 10:00-19:00",
+  "openingHours": "Mo-Fr 10:00-19:00"
  
 }
 </script>
@@ -79,26 +84,25 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100"
-							alt="Homme en costume">
+							alt="Homme en costume" fetchpriority="high">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100"
+						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100"
 							alt="Public assistant à un concert" loading="lazy">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100"
-							alt="Mariés dansant lors d'une soirée de mariage" loading="lazy">
+						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+							class="d-block w-100" alt="Mariés dansant lors d'une soirée de mariage" loading="lazy">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-					data-bs-slide="prev">
+					data-bs-slide="prev" aria-label="Diapositive précédente">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
 				</button>
+
 				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-					data-bs-slide="next">
+					data-bs-slide="next" aria-label="Diapositive suivante">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
 
